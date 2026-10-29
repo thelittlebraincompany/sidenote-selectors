@@ -1,4 +1,4 @@
-# Sidenote — site compatibility data
+# Sidenote, site compatibility data
 
 This repository holds `selectors.json`, the file the [Sidenote](https://apps.apple.com) macOS app uses to read each supported chat site's web page (where the prompts, replies and text box are). The app downloads it once a day; when a site redesigns its page, updating this file fixes every installed copy without an app update.
 
