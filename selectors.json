@@ -1,10 +1,13 @@
 {
-  "version": 1,
-  "updated": "2026-10-28",
+  "version": 2,
+  "updated": "2026-11-01",
   "note": "CSS selectors Sidenote uses to read each site. Comma-separated, newest markup first; older entries are fallbacks. Host this file at the URL in AppInfo.selectorsURL and bump `version` when you change it; the app fetches it on launch and once a day.",
   "sites": {
     "chatgpt": {
-      "hosts": ["chatgpt.com", "chat.openai.com"],
+      "hosts": [
+        "chatgpt.com",
+        "chat.openai.com"
+      ],
       "user": "[data-user-message-bubble=\"true\"], [data-chatgpt-search-unit-key$=\":user\"], [data-content-search-unit-key$=\":user\"], [data-message-author-role=\"user\"], article[data-turn=\"user\"]",
       "assistant": "[data-chatgpt-search-unit-key$=\":assistant\"], [data-content-search-unit-key$=\":assistant\"], [data-message-author-role=\"assistant\"], article[data-turn=\"assistant\"]",
       "composer": "form[data-chatgpt-composer] [contenteditable=\"true\"], form[data-chatgpt-composer] textarea, #prompt-textarea, [data-cgu-composer] [contenteditable=\"true\"], div[contenteditable=\"true\"].ProseMirror",
@@ -12,10 +15,28 @@
       "streaming": "form[data-chatgpt-composer] button[aria-label=\"Stop\"], button[data-testid=\"stop-button\"], button[aria-label*=\"Stop\" i], [data-talvt-turn-state]:not([data-talvt-turn-state=\"complete\"])",
       "conversations": "nav a[href^=\"/c/\"], nav a[href^=\"/g/\"][href*=\"/c/\"], aside a[href^=\"/c/\"], a[data-sidebar-item][href^=\"/c/\"]",
       "newChat": "a[href=\"/\"][data-sidebar-item], nav a[href=\"/\"], a[aria-label=\"New chat\"], button[aria-label=\"New chat\"]",
-      "newChatURL": "https://chatgpt.com/"
+      "newChatURL": "https://chatgpt.com/",
+      "signedInCookies": [
+        "__Secure-next-auth.session-token"
+      ],
+      "cookieDomains": [
+        "chatgpt.com",
+        "openai.com"
+      ],
+      "signedOut": "[data-testid=\"login-button\"], [data-testid=\"signup-button\"]",
+      "loginHosts": [
+        "auth.openai.com",
+        "auth0.openai.com"
+      ],
+      "loginPaths": [
+        "/auth/login"
+      ],
+      "signInOptional": false
     },
     "claude": {
-      "hosts": ["claude.ai"],
+      "hosts": [
+        "claude.ai"
+      ],
       "user": "[data-testid=\"user-message\"], [data-test-render-count] .font-user-message, .font-user-message",
       "assistant": "[data-testid=\"assistant-message\"], .font-claude-response, .font-claude-message, [data-is-streaming]",
       "composer": "div[contenteditable=\"true\"].ProseMirror, fieldset div[contenteditable=\"true\"], div[contenteditable=\"true\"]",
@@ -23,10 +44,25 @@
       "streaming": "[data-is-streaming=\"true\"], button[aria-label=\"Stop response\"], button[aria-label*=\"Stop\" i]",
       "conversations": "nav a[href^=\"/chat/\"], aside a[href^=\"/chat/\"], a[href^=\"/chat/\"]",
       "newChat": "a[href=\"/new\"], a[aria-label=\"New chat\"], button[aria-label=\"New chat\"]",
-      "newChatURL": "https://claude.ai/new"
+      "newChatURL": "https://claude.ai/new",
+      "signedInCookies": [
+        "sessionKey"
+      ],
+      "cookieDomains": [
+        "claude.ai"
+      ],
+      "signedOut": "",
+      "loginHosts": [],
+      "loginPaths": [
+        "/login",
+        "/signup"
+      ],
+      "signInOptional": false
     },
     "gemini": {
-      "hosts": ["gemini.google.com"],
+      "hosts": [
+        "gemini.google.com"
+      ],
       "user": ".query-text, user-query-content, user-query, .user-query-container",
       "assistant": "message-content, .model-response-text, model-response",
       "composer": "input-area-v2 rich-textarea .ql-editor, rich-textarea .ql-editor, .ql-editor[contenteditable=\"true\"], input-area-v2 [contenteditable=\"true\"]",
@@ -34,10 +70,28 @@
       "streaming": "button[aria-label=\"Stop response\"], button.stop-button, button[aria-label*=\"Stop\" i], model-response .loading-indicator",
       "conversations": "conversations-list [data-test-id=\"conversation\"], conversations-list .conversation, .conversation-items-container .conversation",
       "newChat": "new-chat-button button, button[aria-label=\"New chat\"], side-nav-action-button[data-test-id=\"new-chat-button\"] button",
-      "newChatURL": "https://gemini.google.com/app"
+      "newChatURL": "https://gemini.google.com/app",
+      "signedInCookies": [
+        "__Secure-1PSID",
+        "SID"
+      ],
+      "cookieDomains": [
+        "google.com"
+      ],
+      "signedOut": "a[href*=\"accounts.google.com/ServiceLogin\"], a[href*=\"accounts.google.com/v3/signin\"]",
+      "loginHosts": [
+        "accounts.google.com"
+      ],
+      "loginPaths": [],
+      "signInOptional": false
     },
     "copilot": {
-      "hosts": ["copilot.microsoft.com", "copilot.com", "copilot.cloud.microsoft", "m365.cloud.microsoft"],
+      "hosts": [
+        "copilot.microsoft.com",
+        "copilot.com",
+        "copilot.cloud.microsoft",
+        "m365.cloud.microsoft"
+      ],
       "user": "[data-testid=\"chatQuestion\"], div[role=\"article\"][class*=\"UserMessage\"], [class*=\"UserMessage\"], [data-content=\"user-message\"], [data-testid=\"user-message\"]",
       "assistant": "[data-testid=\"copilot-message-reply-div\"], div[role=\"article\"][class*=\"CopilotMessage\"], [class*=\"CopilotMessage\"], [data-testid=\"chatAnswer\"], [data-content=\"ai-message\"]",
       "composer": "#m365-chat-editor-target-element, [data-lexical-editor=\"true\"][role=\"textbox\"], textarea#userInput, [data-testid=\"composer\"] textarea, textarea[placeholder*=\"Message\" i], textarea",
@@ -45,10 +99,18 @@
       "streaming": "button[data-testid=\"StopButton\"], button[data-testid=\"stop-button\"], button[aria-label=\"Stop generating\"], button[aria-label*=\"Stop\" i]",
       "conversations": "[data-testid=\"chat-history-item\"], [data-testid*=\"conversation-item\" i], nav a[href*=\"/chat/conversation/\"], a[href*=\"/chat/conversation/\"], [role=\"listitem\"] a[href*=\"/chats/\"]",
       "newChat": "button[aria-label=\"New chat\"], a[aria-label=\"New chat\"], button[data-testid=\"new-chat-button\"], a[href=\"/chat\"]",
-      "newChatURL": ""
+      "newChatURL": "",
+      "signedInCookies": [],
+      "cookieDomains": [],
+      "signedOut": "",
+      "loginHosts": [],
+      "loginPaths": [],
+      "signInOptional": true
     },
     "perplexity": {
-      "hosts": ["perplexity.ai"],
+      "hosts": [
+        "perplexity.ai"
+      ],
       "user": "[data-message-bubble=\"right\"], [data-testid=\"user-query\"], .group\\/query, h1.group\\/query",
       "assistant": "[data-message-bubble=\"left\"], [id^=\"markdown-content-\"], .prose",
       "composer": "#ask-input, [data-testid=\"ask-input\"], textarea[placeholder*=\"Ask\" i], div[contenteditable=\"true\"][role=\"textbox\"], textarea",
@@ -56,7 +118,17 @@
       "streaming": "button[aria-label=\"Stop generating\"], button[aria-label*=\"Stop\" i], [data-testid=\"stop-button\"]",
       "conversations": "a[href^=\"/search/\"], a[data-testid=\"thread-link\"], aside a[href^=\"/search/\"]",
       "newChat": "a[href=\"/\"][aria-label*=\"New\" i], button[aria-label=\"New Thread\"], a[aria-label=\"New Thread\"]",
-      "newChatURL": "https://www.perplexity.ai/?mode=search"
+      "newChatURL": "https://www.perplexity.ai/?mode=search",
+      "signedInCookies": [
+        "__Secure-next-auth.session-token"
+      ],
+      "cookieDomains": [
+        "perplexity.ai"
+      ],
+      "signedOut": "",
+      "loginHosts": [],
+      "loginPaths": [],
+      "signInOptional": false
     }
   }
 }
