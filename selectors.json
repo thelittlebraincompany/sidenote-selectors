@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-11-01",
   "note": "CSS selectors Sidenote uses to read each site. Comma-separated, newest markup first; older entries are fallbacks. Host this file at the URL in AppInfo.selectorsURL and bump `version` when you change it; the app fetches it on launch and once a day.",
   "sites": {
@@ -102,10 +102,19 @@
       "newChatURL": "",
       "signedInCookies": [],
       "cookieDomains": [],
-      "signedOut": "",
-      "loginHosts": [],
+      "signedOut": "a[href*=\"login.live.com\"], a[href*=\"login.microsoftonline.com\"], button[data-testid*=\"sign-in\" i], a[data-testid*=\"sign-in\" i]",
+      "loginHosts": [
+        "login.live.com",
+        "login.microsoftonline.com",
+        "login.microsoft.com"
+      ],
       "loginPaths": [],
-      "signInOptional": true
+      "signInOptional": false,
+      "signedOutText": [
+        "Sign in",
+        "Sign in to continue",
+        "Sign in with Microsoft"
+      ]
     },
     "perplexity": {
       "hosts": [
