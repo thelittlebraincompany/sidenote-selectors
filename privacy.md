@@ -1,20 +1,20 @@
 # Sidenote — Privacy Policy
 
-_Last updated: November 1, 2026_
+_Last updated: November 2, 2026_
 
 Sidenote is a Mac app for AI chat services you already use (ChatGPT, Claude, Gemini, Copilot and Perplexity). It is built so that **no data about you is collected by the app or its developer.** Everything Sidenote stores stays on your Mac.
 
 ## What stays on your Mac
 
 - **Sign‑ins and site data.** Sidenote shows each service's own website inside the app. Cookies and site data are kept in the app's private, sandboxed web storage on your Mac, as a browser would keep them.
-- **Sign‑in status.** To show "Signed in" on the workspace page, Sidenote checks whether a service's sign‑in cookie exists and whether the page shows a "Sign in" button. Only the cookie's *name* is checked; its value is never read.
-- **Kept answers and projects.** When you keep an answer, its question, answer, service, date and conversation address are saved in a file in the app's sandboxed storage on your Mac.
+- **Sign‑in status.** To show "Signed in" on the workspace page, Sidenote checks whether a service's sign‑in cookie exists and whether the page shows a "Sign in" button. Only the cookie's *name* is checked; its value is never read. For a service without a recognisable sign‑in cookie (Copilot), Sidenote briefly opens that service's page invisibly when the app starts, only if you have used it in Sidenote before, to see whether it asks you to sign in; nothing is clicked or typed, and the page is closed straight away.
+- **Kept answers and projects.** When you keep an answer, its question, answer, service, date and conversation address are saved in a file in the app's sandboxed storage on your Mac. Pictures and files that came with the answer are downloaded from that service, under your own sign‑in, and stored beside it in the same storage. They are deleted with the answer.
 - **The information network and summaries.** Sidenote analyses kept answers **on your Mac** with Apple's on‑device frameworks (NaturalLanguage and, when Apple Intelligence is turned on, Apple's on‑device Foundation Models). Nothing is sent to Apple, the developer or any other company for this.
 - **Search** across kept answers runs on your Mac.
 - **Settings** (styles, shortcuts, appearance, window options) are stored on your Mac.
 - **Hidden mode** changes how a service's page looks on your screen. It runs entirely on your Mac; the text it shows is read from the page already in front of you.
 - **Diagnostics** are created only when you press *Copy diagnostics*, and are placed on your clipboard only. They describe the page's structure and contain no message text.
-- **Exports** (Markdown, PDF, Word, RTF, print) are written only where you choose.
+- **Exports and backups** (Markdown, PDF, Word, RTF, print, and project backup files) are written only where you choose. Restoring a backup with *Replace* first keeps a copy of your current projects in the app's own storage.
 
 ## What is sent over the network
 
