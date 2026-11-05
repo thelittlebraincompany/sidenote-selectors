@@ -38,6 +38,8 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 **How do I edit or rename a kept answer?** Hover over the answer and click *Edit*. Only that answer is shown while you edit, with its title and buttons pinned at the top; click the title to rename it. You edit the text right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
 
+**How do I delete a kept answer?** Click *Delete* at the top of the answer (or choose *Move to Trash* from its folder menu). It goes to *Trash* in the Projects sidebar with its highlights, notes, edits and stored files, and the Trash shows which project it came from. Click it there to read it; *Put Back* returns it to its project (a deleted project is made again under its old name). Deleting a project sends its answers to the Trash the same way. Anything in the Trash is deleted for good after 30 days, or when you empty it.
+
 **How do I remove a file or picture kept with an answer?** Click *Remove* on the file's card, or hover over a picture and click *Remove*. Deleting it while editing does the same. It goes to *Trash* (in the Projects sidebar), where you can put it back or delete it for good; anything left there is deleted after 30 days. Undo also brings it back.
 
 **How much space does Sidenote use?** *Settings › General › Storage on this Mac* shows it by kind (projects, kept files, Trash, website data), with buttons to empty the Trash.
@@ -52,7 +54,7 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 **Can I undo a merge or a split?** Yes: use *Undo* in the message that appears, or the ↩︎ button at the bottom of the projects list.
 
-**The network view is empty or still spinning.** Each answer is analysed on your Mac after it's kept; a large restore can take a few minutes. With Apple Intelligence turned on, concepts and their relations are added too.
+**The network view is empty or still spinning.** Each answer is analysed on your Mac after it's kept; a large restore can take a few minutes. With Apple Intelligence turned on, concepts and their relations are added too. Your own notes in a project join the network too, as gold squares, a few seconds after you stop typing (notes shorter than a sentence are left out); click one and choose *Open Note* to edit it.
 
 ## Hidden mode
 

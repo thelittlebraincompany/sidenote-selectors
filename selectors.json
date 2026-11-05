@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated": "2026-11-01",
+  "version": 4,
+  "updated": "2026-11-05",
   "note": "CSS selectors Sidenote uses to read each site. Comma-separated, newest markup first; older entries are fallbacks. Host this file at the URL in AppInfo.selectorsURL and bump `version` when you change it; the app fetches it on launch and once a day.",
   "sites": {
     "chatgpt": {
@@ -83,7 +83,9 @@
         "accounts.google.com"
       ],
       "loginPaths": [],
-      "signInOptional": false
+      "signInOptional": false,
+      "replyBox": "model-response",
+      "pictures": "generated-image img, single-image img"
     },
     "copilot": {
       "hosts": [

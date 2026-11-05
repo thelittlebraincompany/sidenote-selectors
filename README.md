@@ -23,6 +23,10 @@ The file contains no user data and the download carries none. It is a plain, pub
 | `send` | The send button. If absent, Enter is pressed. |
 | `streaming` | Something visible only while a reply is being generated (usually the Stop button). |
 | `newChatURL` | Where a new conversation starts. |
+| `replyBox` | *Optional.* The element holding a whole reply, including what the site puts beside its text, such as Gemini's generated pictures (`model-response`). Without it, the app looks around each reply by itself. |
+| `pictures` | *Optional.* Pictures that belong to replies (`generated-image img`). These are shown and kept even when small or still loading. Use this when a site's pictures go missing in hidden mode or from kept answers. |
+
+Older versions of the app ignore fields they don't know, so adding the optional ones is safe.
 
 Validate before committing: `python3 -c "import json; json.load(open('selectors.json'))"`.
 
