@@ -38,6 +38,10 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 **How do I edit or rename a kept answer?** Hover over the answer and click *Edit*. Only that answer is shown while you edit, with its title and buttons pinned at the top; click the title to rename it. You edit the text right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
 
+**How do I remove a file or picture kept with an answer?** Click *Remove* on the file's card, or hover over a picture and click *Remove*. Deleting it while editing does the same. It goes to *Trash* (in the Projects sidebar), where you can put it back or delete it for good; anything left there is deleted after 30 days. Undo also brings it back.
+
+**How much space does Sidenote use?** *Settings › General › Storage on this Mac* shows it by kind (projects, kept files, Trash, website data), with buttons to empty the Trash.
+
 **Can I export just one answer?** Yes: hover over it and click *Export…* to save it as PDF, Word and other formats, copy it as Markdown, or print it.
 
 **Can I undo a highlight or a note?** Yes. Press ⌘Z in the answer, click *Undo* next to *Edit*, or use the ↩︎ button at the top of the reading panel. It undoes the last highlight, colour change, note or edit on that answer.
