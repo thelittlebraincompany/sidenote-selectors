@@ -34,9 +34,11 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 **Where do I find everything I highlighted?** Each project has a highlighter tab listing its highlights and notes, filterable by colour; choosing one shows it in its answer. *Highlights & Notes* in the sidebar lists them across all projects. *Starred* collects answers you star (☆ next to an answer's date), and *Recently Kept* the last month's answers.
 
-**Why does Projects say "Source A" instead of ChatGPT?** So nothing on screen says which AI an answer came from. Choose your own names, or switch the real names back on, in *Settings › Projects › Service names*.
+**Can Projects hide which AI an answer came from?** Yes: in *Settings › Projects › Service names*, turn off the real names. Projects then says "Source A", "Source B"… (or names you choose) on its tabs, answers, searches and exports.
 
-**How do I edit a kept answer?** Hover over the answer and click *Edit*. You edit it right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
+**How do I edit or rename a kept answer?** Hover over the answer and click *Edit*. Only that answer is shown while you edit, with its title and buttons pinned at the top; click the title to rename it. You edit the text right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
+
+**Can I export just one answer?** Yes: hover over it and click *Export…* to save it as PDF, Word and other formats, copy it as Markdown, or print it.
 
 **Can I undo a highlight or a note?** Yes. Press ⌘Z in the answer, click *Undo* next to *Edit*, or use the ↩︎ button at the top of the reading panel. It undoes the last highlight, colour change, note or edit on that answer.
 
