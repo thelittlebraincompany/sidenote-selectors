@@ -1,6 +1,6 @@
 # Sidenote — Support
 
-**Email:** SUPPORT_EMAIL
+**Email:** thelittlebraincompany@gmail.com
 
 Questions about the app, the free week or a purchase: write any time. Replies usually come within two working days.
 
