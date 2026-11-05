@@ -57,4 +57,4 @@ If this policy changes, the updated version will be posted at this address with 
 
 ## Contact
 
-Questions: SUPPORT_EMAIL
+Questions: thelittlebraincompany@gmail.com
