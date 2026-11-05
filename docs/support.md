@@ -34,6 +34,12 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 **Where do I find everything I highlighted?** Each project has a highlighter tab listing its highlights and notes, filterable by colour; choosing one shows it in its answer. *Highlights & Notes* in the sidebar lists them across all projects. *Starred* collects answers you star (☆ next to an answer's date), and *Recently Kept* the last month's answers.
 
+**Why does Projects say "Source A" instead of ChatGPT?** So nothing on screen says which AI an answer came from. Choose your own names, or switch the real names back on, in *Settings › Projects › Service names*.
+
+**How do I edit a kept answer?** Hover over the answer and click *Edit*. You edit it right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
+
+**Can I undo a highlight or a note?** Yes. Press ⌘Z in the answer, click *Undo* next to *Edit*, or use the ↩︎ button at the top of the reading panel. It undoes the last highlight, colour change, note or edit on that answer.
+
 **Can I write my own notes in a project?** Yes: open the project's notes tab (the note icon) and click *New Note*. Your notes are searchable, included when you export or print the project, and backed up with it.
 
 **What does clean-up do?** With *Settings › Projects › Clean up answers when you keep them* on, filler such as "Great question!" or "Let me know if you have other questions" is removed as an answer is kept. Whole sentences are removed and nothing is reworded.
