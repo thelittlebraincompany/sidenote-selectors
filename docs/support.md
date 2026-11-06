@@ -1,6 +1,6 @@
 # Sidenote — Support
 
-**Email:** thelittlebraincompany@gmail.com
+**Email:** [thelittlebraincompany@gmail.com](mailto:thelittlebraincompany@gmail.com)
 
 Questions about the app, the free week or a purchase: write any time. Replies usually come within two working days.
 
@@ -14,9 +14,9 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 
 ## Free week and unlock
 
-**How does the free week work?** Everything is free for 7 days from the moment you tap *Start Free Week*. After that, a one-time purchase unlocks hidden mode, the boss key and keeping new answers for good. There is no subscription and nothing is charged automatically.
+**How does the free week work?** Everything is free for 7 days from the moment you click *Start Free Week*. After that, a one-time purchase unlocks hidden mode, the boss key, keeping new answers, and highlights, notes and edits, for good. There is no subscription and nothing is charged automatically.
 
-**What stays free after the week?** Using your AI services in normal mode, and reading, searching, exporting and backing up everything in Projects.
+**What stays free after the week?** Using your AI services in normal mode, and reading, searching, exporting and backing up everything you kept in Projects.
 
 **I bought the unlock on another Mac (or reinstalled).** Open *Settings › Unlock* and click **Restore Purchases**, then sign in with the Apple Account you paid with. The unlock works on every Mac signed in to that account.
 
@@ -37,6 +37,8 @@ Chat sites redesign their pages from time to time. Sidenote usually repairs itse
 **Can Projects hide which AI an answer came from?** Yes: in *Settings › Projects › Service names*, turn off the real names. Projects then says "Source A", "Source B"… (or names you choose) on its tabs, answers, searches and exports.
 
 **How do I edit or rename a kept answer?** Hover over the answer and click *Edit*. Only that answer is shown while you edit, with its title and buttons pinned at the top; click the title to rename it. You edit the text right where it is, with your highlights and notes still showing. Use B, I, U and S (or ⌘B, ⌘I, ⌘U, ⇧⌘X) for bold, italic, underline and strikethrough, then *Save* (⌘↩) or *Cancel* (Esc). Formulas, tables and pictures stay intact.
+
+**Can I talk to the AI by voice?** Not in this version: the services' microphone and camera buttons don't work inside Sidenote. Type instead, or use macOS Dictation (press the Dictation shortcut, Fn twice by default), which works in every text box.
 
 **How do I delete a kept answer?** Click *Delete* at the top of the answer (or choose *Move to Trash* from its folder menu). It goes to *Trash* in the Projects sidebar with its highlights, notes, edits and stored files, and the Trash shows which project it came from. Click it there to read it; *Put Back* returns it to its project (a deleted project is made again under its old name). Deleting a project sends its answers to the Trash the same way. Anything in the Trash is deleted for good after 30 days, or when you empty it.
 

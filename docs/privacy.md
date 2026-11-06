@@ -24,7 +24,7 @@ If you are signed in to iCloud with iCloud Drive on, Sidenote backs up your proj
 ## What is sent over the network
 
 - **To the AI service you open, under your own account.** Whatever you type into a service — including through hidden mode's input box — is sent to that service, exactly as if you used its website in a browser. That service's own privacy policy and terms apply. Sidenote does not send your conversations anywhere else.
-- **A configuration file from the developer's site.** Once a day (or when you press *Check now*), Sidenote may download a small file describing how each service's web page is laid out, so it keeps working after a redesign. It contains no code, and the request carries no information about you.
+- **A configuration file from GitHub.** Once a day (or when you press *Check now*), Sidenote may download a small public file, hosted on GitHub (raw.githubusercontent.com), describing how each service's web page is laid out, so it keeps working after a redesign. It contains no code. No personal data is sent; as with any web request, GitHub receives your IP address and a standard app identifier, and the developer sees nothing.
 
 - **The App Store, for purchases.** The free week and the one‑time unlock are in‑app purchases handled entirely by Apple. Sidenote asks Apple which of them your Apple Account owns, to unlock features; it never sees your payment details, and nothing about purchases is sent to the developer beyond the sales reports Apple provides to every developer.
 
@@ -38,10 +38,10 @@ Nothing. The developer cannot see your accounts, conversations, kept answers, no
 
 Your data stays until you delete it:
 
-- **Kept answers:** delete a project in the Projects window (its answers are deleted with it).
+- **Kept answers:** delete answers or projects in the Projects window (they go to the Trash), then empty the Trash.
 - **Sign‑ins and site data:** *Settings › Privacy › Sign out of all sites*, or right‑click a workspace › *Sign Out*.
 - **iCloud backups:** *System Settings › Apple Account › iCloud › Manage › Sidenote* (turn automatic backups off in *Settings › Backups*).
-- **Everything:** delete the app. macOS then removes its sandboxed storage, including kept answers, settings and site data. iCloud backups, if any, stay in your iCloud until you delete them as above.
+- **Everything:** sign out of all sites, empty your projects and the Trash, then delete the app. To be sure nothing is left on the Mac, also delete the folder *~/Library/Containers/com.thelittlebraincompany.sidenote* (deleting a Mac app doesn't always remove it). iCloud backups, if any, stay in your iCloud until you delete them as above.
 
 ## Third‑party services
 
@@ -57,4 +57,4 @@ If this policy changes, the updated version will be posted at this address with 
 
 ## Contact
 
-Questions: thelittlebraincompany@gmail.com
+Questions: [thelittlebraincompany@gmail.com](mailto:thelittlebraincompany@gmail.com)

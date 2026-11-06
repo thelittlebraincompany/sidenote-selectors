@@ -25,6 +25,10 @@ The file contains no user data and the download carries none. It is a plain, pub
 | `newChatURL` | Where a new conversation starts. |
 | `replyBox` | *Optional.* The element holding a whole reply, including what the site puts beside its text, such as Gemini's generated pictures (`model-response`). Without it, the app looks around each reply by itself. |
 | `pictures` | *Optional.* Pictures that belong to replies (`generated-image img`). These are shown and kept even when small or still loading. Use this when a site's pictures go missing in hidden mode or from kept answers. |
+| `signedOut` | *Optional.* Something visible only when the page is signed out (a Log in button). |
+| `signInOptional` | *Optional.* `true` for a site that works without an account (ChatGPT): the workspace page says "Sign-in optional" and hidden mode is never held back for being signed out. |
+
+When the prompt and reply selectors stop matching, the app still finds the conversation from the prompts sent on that page, and *Copy diagnostics* then lists, under **Turns as read**, the elements it used and the thread around them. Write the new `user` and `assistant` selectors from those.
 
 Older versions of the app ignore fields they don't know, so adding the optional ones is safe.
 
